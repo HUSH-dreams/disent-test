@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+          rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+          rel="stylesheet">
+    <title>HTML5 Boilerplate</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+<div class="wrapper">
+    <header class="header">
+        <object class="header-logo" type="image/svg+xml" data="images/logo1.svg">
+            Your browser does not support SVG
+        </object>
+        <div class="header-menu-links">
+            <div class="menu">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Tech Stack</a>
+                <a href="#">Projects</a>
+                <a href="#">Contact</a>
+            </div>
+            <!-- В React можно вынести в отдельный компонент, т.к. в подвале есть такой-же елемент -->
+            <div class="links">
+                <object type="image/svg+xml" data="images/Vector.svg" width="30" height="30">
+                    Your browser does not support SVG
+                </object>
+                <object type="image/svg+xml" data="images/ant-design_twitter-circle-filled.svg" width="30" height="30">
+                    Your browser does not support SVG
+                </object>
+                <object type="image/svg+xml" data="images/entypo-social_linkedin-with-circle.svg" width="30"
+                        height="30">
+                    Your browser does not support SVG
+                </object>
+            </div>
+        </div>
+    </header>
+    <section class="about-me">
+        <p> Hi 👋,
+            My name is
+            <span>Pavan MG</span>
+            I build things for&nbsp;web</p>
+        <div class="about-me-img-container">
+            <div class="about-me-img"></div>
+        </div>
+    </section>
+    <section class="tech-stack section">
+        <h3 class="section-h3">
+            My tech stack
+        </h3>
+        <span class="section-span">Technologies I’ve been working with recently</span>
+        <div class="tech-icons-container">
+            <!-- в React: {
+                icons.map(icon => (<Icon data={icon} />))
+            }      -->
+            <div>
+                <object type="image/svg+xml" data="images/vscode-icons_file-type-html.svg">
+                    Your browser does not support SVG
+                </object>
+            </div>
+            <div>
+                <object type="image/svg+xml" data="images/vscode-icons_file-type-css.svg">
+                    Your browser does not support SVG
+                </object>
+            </div>
+            <div>
+                <object type="image/svg+xml" data="images/vscode-icons_file-type-js-official.svg">
+                    Your browser does not support SVG
+                </object>
+            </div>
+            <div>
+                <object type="image/svg+xml" data="images/logos_react.svg">
+                    Your browser does not support SVG
+                </object>
+            </div>
+            <div>
+                <object type="image/svg+xml" data="images/Vector2.svg">
+                    Your browser does not support SVG
+                </object>
+            </div>
+            <div>
+                <object type="image/svg+xml" data="images/logos_bootstrap.svg">
+                    Your browser does not support SVG
+                </object>
+            </div>
+            <div>
+                <object type="image/svg+xml" data="images/vscode-icons_file-type-tailwind.svg">
+                    Your browser does not support SVG
+                </object>
+            </div>
+            <div>
+                <object type="image/svg+xml" data="images/logos_sass.svg">
+                    Your browser does not support SVG
+                </object>
+            </div>
+            <div>
+                <object type="image/svg+xml" data="images/cib_greensock.svg">
+                    Your browser does not support SVG
+                </object>
+            </div>
+            <div>
+                <object type="image/svg+xml" data="images/logos_git-icon.svg">
+                    Your browser does not support SVG
+                </object>
+            </div>
+            <div>
+                <object type="image/svg+xml" data="images/vscode-icons_file-type-vscode.svg">
+                    Your browser does not support SVG
+                </object>
+            </div>
+            <div>
+                <object type="image/svg+xml" data="images/akar-icons_github-fill.svg">
+                    Your browser does not support SVG
+                </object>
+            </div>
+        </div>
+    </section>
+    <section class="my-projects section">
+        <h3 class="section-h3">Projects</h3>
+        <span class="section-span">Things I’ve built so far</span>
+        <div></div>
+        <!-- React: {
+            cards.map(card => (<Card data={card} />))
+        }      -->
+        <div class="card-container">
+            <div class="card">
+                <div class="card-img"
+                     style="background-image: url('images/e7872c6a2058b9625737f5b75b60be13.jfif')"></div>
+                <div class="card-info">
+                    <h4>Project Tile goes here</h4>
+                    <p>This is sample project description random things are here in description This is sample project
+                        lorem ipsum generator for dummy content</p>
+                    <span class="card-tech-stack">Tech stack : </span><span class="card-tech-stack-definition">HTML , JavaScript, SASS, React</span>
+                    <div class="card-button-container">
+                        <a href=""><img src="images/akar-icons_link-chain.png" alt="">Link preview</a>
+                        <a href=""><img src="images/akar-icons_github-fill.png" alt="">View code</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-img"
+                     style="background-image: url('images/6b364f1d268c5f396af9f68e95fa8167.jfif')"></div>
+                <div class="card-info">
+                    <h4>Project Tile goes here</h4>
+                    <p>This is sample project description random things are here in description This is sample project
+                        lorem ipsum generator for dummy content</p>
+                    <span class="card-tech-stack">Tech stack : </span><span class="card-tech-stack-definition">HTML , JavaScript, SASS, React</span>
+                    <div class="card-button-container">
+                        <a href=""><img src="images/akar-icons_link-chain.png" alt="">Link preview</a>
+                        <a href=""><img src="images/akar-icons_github-fill.png" alt="">View code</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-img"
+                     style="background-image: url('images/32f30b561bea9168c23cb7e62e2faca6.jfif')"></div>
+                <div class="card-info">
+                    <h4>Project Tile goes here</h4>
+                    <p>This is sample project description random things are here in description This is sample project
+                        lorem ipsum generator for dummy content</p>
+                    <span class="card-tech-stack">Tech stack : </span><span class="card-tech-stack-definition">HTML , JavaScript, SASS, React</span>
+                    <div class="card-button-container">
+                        <a href=""><img src="images/akar-icons_link-chain.png" alt="">Link preview</a>
+                        <a href=""><img src="images/akar-icons_github-fill.png" alt="">View code</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-img"
+                     style="background-image: url('images/ea5b01bccbe2ee39d1608b7af2b84c96.jfif')"></div>
+                <div class="card-info">
+                    <h4>Project Tile goes here</h4>
+                    <p>This is sample project description random things are here in description This is sample project
+                        lorem ipsum generator for dummy content</p>
+                    <span class="card-tech-stack">Tech stack : </span><span class="card-tech-stack-definition">HTML , JavaScript, SASS, React</span>
+                    <div class="card-button-container">
+                        <a href=""><img src="images/akar-icons_link-chain.png" alt="">Link preview</a>
+                        <a href=""><img src="images/akar-icons_github-fill.png" alt="">View code</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-img"
+                     style="background-image: url('images/94dfa61c88bf91b57d4a2a529cb10144.jfif')"></div>
+                <div class="card-info">
+                    <h4>Project Tile goes here</h4>
+                    <p>This is sample project description random things are here in description This is sample project
+                        lorem ipsum generator for dummy content</p>
+                    <span class="card-tech-stack">Tech stack : </span><span class="card-tech-stack-definition">HTML , JavaScript, SASS, React</span>
+                    <div class="card-button-container">
+                        <a href=""><img src="images/akar-icons_link-chain.png" alt="">Link preview</a>
+                        <a href=""><img src="images/akar-icons_github-fill.png" alt="">View code</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-img"
+                     style="background-image: url('images/8d5857f6f0d9154cbce52348d32d1f0d.jfif')"></div>
+                <div class="card-info">
+                    <h4>Project Tile goes here</h4>
+                    <p>This is sample project description random things are here in description This is sample project
+                        lorem ipsum generator for dummy content</p>
+                    <span class="card-tech-stack">Tech stack : </span><span class="card-tech-stack-definition">HTML , JavaScript, SASS, React</span>
+                    <div class="card-button-container">
+                        <a href=""><img src="images/akar-icons_link-chain.png" alt="">Link preview</a>
+                        <a href=""><img src="images/akar-icons_github-fill.png" alt="">View code</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <section class="footer-top">
+            <object type="image/svg+xml" data="images/logo2.svg">
+                Your browser does not support SVG
+            </object>
+            <div class="footer-top-container">
+                <div class="footer-top-info">
+                    <span>+91 12345 09876</span>
+                    <span>info@example.com</span>
+                </div>
+                <div class="links">
+                    <object type="image/svg+xml" data="images/Vector.svg" width="30" height="30">
+                        Your browser does not support SVG
+                    </object>
+                    <object type="image/svg+xml" data="images/ant-design_twitter-circle-filled.svg" width="30"
+                            height="30">
+                        Your browser does not support SVG
+                    </object>
+                    <object type="image/svg+xml" data="images/entypo-social_linkedin-with-circle.svg" width="30"
+                            height="30">
+                        Your browser does not support SVG
+                    </object>
+                </div>
+            </div>
+        </section>
+        <section class="footer-bottom">
+            <div class="menu footer-menu">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Tech Stack</a>
+                <a href="#">Projects</a>
+                <a href="#">Contact</a>
+            </div>
+            <span class="footer-bottom-text"><span>Designed and built by </span>Pavan MG <span>with&nbsp;</span>Love&nbsp;<span>&&nbsp;</span>Coffee</span>
+        </section>
+    </footer>
+</div>
+</body>
+
+</html>
