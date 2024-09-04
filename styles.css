@@ -56,6 +56,10 @@
     gap: 16px;
 }
 
+.links > object {
+    width: 32px;
+}
+
 .about-me {
     margin-top: 120px;
     width: 100%;
@@ -446,6 +450,10 @@ footer {
 
     .links {
         gap: 12px;
+    }
+
+    .links > object {
+        width: 20px;
     }
 
     .about-me {
